@@ -1,0 +1,21 @@
+{
+  "type" : "record",
+  "name" : "Car2",
+  "namespace" : "com.datawhisperers.jsonexample",
+  "fields" : [ {
+    "name" : "cost",
+    "type" : [ "null", {
+      "type" : "string",
+      "java-class" : "java.math.BigDecimal"
+    } ]
+  }, {
+    "name" : "make",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "model",
+    "type" : [ "null", "string" ]
+  }, {
+    "name" : "raw",
+    "type" : [ "null", "string" ]
+  } ]
+}
